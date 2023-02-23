@@ -1,10 +1,10 @@
 package co.edu.uptc.logica.modelo;
 
-public class Vehiculo {
+public abstract class Vehiculo {
 protected String Placa, Desc, marca;
 protected float KmReco;
 protected Conductor Encargado;
-
+protected abstract float calcularPeaje(int i); 
 	public Conductor getEncargado() {
 		return Encargado;
 	}

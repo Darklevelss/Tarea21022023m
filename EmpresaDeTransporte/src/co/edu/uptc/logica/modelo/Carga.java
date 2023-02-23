@@ -15,4 +15,10 @@ public Carga() {
 	public void setNroToneladas(float nroToneladas) {
 		NroToneladas = nroToneladas;
 	}
+
+	@Override
+	public float calcularPeaje(int i) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }
