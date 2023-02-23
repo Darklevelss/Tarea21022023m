@@ -4,7 +4,16 @@ public class Vehiculo {
 protected String Placa, Desc, marca;
 protected float KmReco;
 protected Conductor Encargado;
-public Vehiculo() {
+
+	public Conductor getEncargado() {
+		return Encargado;
+	}
+
+	public void setEncargado(Conductor encargado) {
+		Encargado = encargado;
+	}
+
+	public Vehiculo() {
 	
 }
 public String getPlaca() {

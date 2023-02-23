@@ -11,6 +11,7 @@ public ArrayList<Pasajero> getPasajeros() {
 
 public TranspotePasajero() {
 	super();
+	this.marca="Mercedes Benz";
 }
 
 }
